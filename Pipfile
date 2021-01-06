@@ -8,8 +8,8 @@ verify_ssl = true
 [packages]
 django = "*"
 pillow = "*"
-crispy = "*"
 django-crispy-forms = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.8"
