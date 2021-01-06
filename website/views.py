@@ -6,9 +6,9 @@ from .forms import ContactForm
 
 
 def home(request):
-    projects = Project.objects.all()
-    context = {'projects': projects}
-    return render(request, 'website/home.html', context)
+    # projects = Project.objects.all()
+    # context = {'projects': projects}
+    return render(request, 'website/home.html')
 
 
 def about(request):
