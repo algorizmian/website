@@ -1,0 +1,17 @@
+
+div p {
+    font-size: 150%;
+}
+
+.img-project {
+    width: 230px;
+}
+
+.img-blog {
+    width: 550px;
+}
+
+#sticky-footer {
+    background-color: #000000;
+    padding: 40px 20px 20px 40px;
+}
