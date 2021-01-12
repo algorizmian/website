@@ -1,14 +1,21 @@
 {% extends 'website/base.html' %}
 {% load static %}
 {% block content %}
-<div class="content-fluid" style="margin-top: 200px; margin-bottom: 160px">
-    <div class="row" style="padding-top: 100px; padding-bottom: 100px">
+
+    <div class="banner-image" style="margin-top: 150px; padding-top: 250px; padding-bottom: 250px">
+        <div class="banner-overlay"></div>
+        <div class="banner-text" style="text-align: center">
+            <h1 style="color: white"><strong>You've got any problem to solve?</strong></h1>
+        </div>
+    </div>
+<div class="content-fluid" style="margin-bottom: 160px">
+    <div class="row" style="padding-top: 100px; padding-bottom: 80px; padding-left: 50px; padding-right: 50px">
         <div class="col-lg-3"></div>
         <div class="col-lg-6">
-            <h1><strong>You've got any problem to solve?</strong></h1><br>
+<!--            <h1><strong>You've got any problem to solve?</strong></h1><br>-->
             <div class="introduction">
-                <h3>You can transform your project with minimal effect.</h3><br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                <h3 style="text-align: center; padding-bottom: 15px">You can transform your project with minimal effect.</h3><br>
+                <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                     nisi ut
@@ -18,14 +25,14 @@
                     in
                     culpa qui officia deserunt mollit anim id est laborum.</p><br>
                 <a href="{% url 'about' %}">
-                    <button type="button" class="btn btn-info">Learn more</button>
+                    <center><button type="button" class="btn btn-info" style="height: 55px">Learn more</button></center>
                 </a>
             </div>
             <br>
         </div>
         <div class="col-lg-3"></div>
     </div>
-    <div class="row" style="margin-top: 100px; padding-top: 200px; padding-bottom: 200px; background-color: #d7ebfb">
+    <div class="row" style="margin-top: 100px; padding-top: 200px; padding-bottom: 200px; padding-left: 50px; padding-right: 50px; background-color: #d7ebfb">
         <div class="col-lg-2"></div>
         <div class="col-lg-3">
             <h1>Who are we?</h1>
@@ -37,7 +44,7 @@
         </div>
         <div class="col-lg-2"></div>
     </div>
-    <div class="row" style="padding-top: 200px; padding-bottom: 200px; background-color: #195381; color: #fff">
+    <div class="row" style="padding-top: 200px; padding-bottom: 200px; padding-left: 50px; padding-right: 50px; background-color: #195381; color: #fff">
         <div class="col-lg-2"></div>
         <div class="col-lg-5">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -51,23 +58,23 @@
         <div class="col-lg-2"></div>
     </div>
     <div class="testimonials" style="margin-top: 150px; padding-top: 50px; padding-bottom: 100px">
-        <h1 style="text-align:center">Testimonials</h1><br><br><br>
+        <h1 style="text-align: center">Testimonials</h1><br><br><br>
         <div class="row">
             <div class="col-lg-3"></div>
-            <div class="col-lg-2">
-                <center><img src="media/images/ikea.jpg" style="width:200px"><br><br>Lorem ipsum dolor sit amet,
+            <div class="col-lg-2" style="padding-bottom: 50px;">
+                <center><img src="media/images/ikea.jpg" style="width: 200px"><br><br>Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit sed do eiusmod tempor incididunt ut
                     labore
                 </center>
             </div>
-            <div class="col-lg-2">
-                <center><img src="media/images/aig.png" style="width:200px"><br><br>Lorem ipsum dolor sit amet,
+            <div class="col-lg-2" style="padding-bottom: 50px;">
+                <center><img src="media/images/aig.png" style="width: 200px"><br><br>Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit sed do eiusmod tempor incididunt ut
                     labore
                 </center>
             </div>
-            <div class="col-lg-2">
-                <center><img src="media/images/tails.png" style="width:200px"><br><br>Lorem ipsum dolor sit amet,
+            <div class="col-lg-2" style="padding-bottom: 50px">
+                <center><img src="media/images/tails.png" style="width: 200px"><br><br>Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit sed do eiusmod tempor incididunt ut
                     labore
                 </center>
