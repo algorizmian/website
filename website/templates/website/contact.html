@@ -1,9 +1,9 @@
 {% extends 'website/base.html' %}
 {% block content %}
 {% load crispy_forms_tags %}
-
-<div style="content-fluid; margin-top: 200px; margin-bottom: 160px">
-    <div class="row" style="padding-top: 100px; padding-bottom: 100px">
+<img src="/media/images/phone_.jpg" style="width:100%">
+<div style="content-fluid; margin-top: 50px; margin-bottom: 50px">
+    <div class="row" style="padding-left: 100px; padding-right: 100px; padding-top: 50px; padding-bottom: 50px">
         <div class="col-lg-4"></div>
         <div class="col-lg-4 contact">
         <h2>Contact Us</h2><br>
@@ -11,7 +11,7 @@
             {% csrf_token %}
             {{ form|crispy }}
             <div class="form-actions">
-                <button type="submit">Send</button>
+                <button type="submit" class="btn btn-info">Send</button>
             </div>
         </form>
         </div>
