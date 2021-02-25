@@ -1,3 +1,7 @@
+nav {
+    padding: 0;
+}
+
 .banner-image {
     background-image: url("/media/images/london.jpg");
     background-repeat: no-repeat;
@@ -26,11 +30,6 @@
 
 .banner-text > h1 {
      color: white;
-}
-
-body {
-    scroll-padding-top: 100px;
-    width: 100%;
 }
 
 .img-top {
@@ -96,6 +95,61 @@ div p {
 
 .contact-form-wrapper {
     padding: 100px;
+}
+
+.container-fluid, .about-container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.our-story-wrapper {
+    padding: 150px 200px 150px 200px;
+}
+
+.our-story-title h1 {
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.our-goals-wrapper {
+    padding: 150px 200px 150px 200px;
+    background-color: #195381;
+    color: #fff;
+    text-align: center;
+}
+
+.our-goals-title h1, .our-values-title h1 {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.our-values-wrapper {
+    width:100%;
+    padding: 100px 0px 100px 0px;
+    background-color:#d7ebfb;
+}
+
+.element-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.element {
+    text-align: center;
+}
+
+.element-image {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 70px;
+}
+
+.element-text {
+    text-align: center;
+    padding-bottom: 40px;
 }
 
 #sticky-footer {
