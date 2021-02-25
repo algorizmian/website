@@ -33,6 +33,10 @@ body {
     width: 100%;
 }
 
+.img-top {
+    width: 100%;
+}
+
 .content-main {
     margin-bottom: 160px;
 }
@@ -88,6 +92,10 @@ div p {
 
 .img-blog {
     width: 550px;
+}
+
+.contact-form-wrapper {
+    padding: 100px;
 }
 
 #sticky-footer {
