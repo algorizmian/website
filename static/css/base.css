@@ -158,6 +158,34 @@ div p {
     padding-bottom: 40px;
 }
 
+.ourwork-wrapper {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20%;
+    padding-right: 15%;
+}
+
+.ourwork-title {
+    padding-left: 10px;
+}
+
+.client-group {
+    padding: 60px 0px 60px 0px;
+}
+
+.client-logo {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.client-logo img {
+    width: 70%;
+}
+
+.client-body {
+    padding-left: 5%;
+}
+
 #sticky-footer {
     background-color: #000000;
     padding: 40px 20px 20px 40px;
