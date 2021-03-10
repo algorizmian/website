@@ -1,3 +1,12 @@
+.container-fluid {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    overflow: hidden;
+}
+
+nav {
+    padding: 0;
+}
 
 .banner-image {
     background-image: url("/media/images/london.jpg");
@@ -8,6 +17,9 @@
     width: 100%;
     height: auto;
     display: block;
+    margin-top: 150px;
+    padding-top: 250px;
+    padding-bottom: 250px;
 }
 
 .banner-image .banner-overlay {
@@ -18,8 +30,61 @@
     height: 100%;
 }
 
-body {
-    scroll-padding-top: 100px;
+.banner-text {
+    text-align: center;
+}
+
+.banner-text > h1 {
+     color: white;
+}
+
+.img-top {
+    width: 100%;
+}
+
+.content-main {
+    margin-bottom: 160px;
+}
+
+.row-main {
+    padding: 100px 50px 80px 50px;
+    text-align: center;
+}
+
+.introduction h3 {
+    padding-bottom: 15px;
+}
+
+.row-who-are-we {
+    margin-top: 100px;
+    padding: 200px 50px 200px 50px;
+    background-color: #d7ebfb;
+}
+
+.row-why-us {
+    padding: 200px 50px 200px 50px;
+    background-color: #195381;
+    color: #fff;
+}
+
+.why-us-title {
+    padding-left: 120px;
+}
+
+.testimonials {
+    margin-top: 150px;
+    margin-right: 0;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.testimonial-wrapper {
+    margin-bottom: 30px;
+}
+
+.client-logo {
+    width: 10rem;
 }
 
 div p {
@@ -32,6 +97,93 @@ div p {
 
 .img-blog {
     width: 550px;
+}
+
+.contact-form-wrapper {
+    padding: 100px;
+}
+
+.about-container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.our-story-wrapper {
+    padding: 150px 200px 150px 200px;
+}
+
+.our-story-title h1 {
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.our-goals-wrapper {
+    padding: 150px 200px 150px 200px;
+    background-color: #195381;
+    color: #fff;
+    text-align: center;
+}
+
+.our-goals-title h1, .our-values-title h1 {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.our-values-wrapper {
+    width:100%;
+    padding: 100px 0px 100px 0px;
+    background-color:#d7ebfb;
+}
+
+.element-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.element {
+    text-align: center;
+}
+
+.element-image {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 70px;
+}
+
+.element-text {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.ourwork-wrapper {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20%;
+    padding-right: 15%;
+}
+
+.ourwork-title {
+    padding-left: 10px;
+}
+
+.client-group {
+    padding: 60px 0px 60px 0px;
+}
+
+.client-logo {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.client-logo img {
+    width: 70%;
+}
+
+.client-body {
+    padding-left: 5%;
 }
 
 #sticky-footer {

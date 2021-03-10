@@ -1,13 +1,12 @@
 {% extends 'website/base.html' %}
 {% block content %}
-<img src="/media/images/ourwork.jpg" style="width: 100%">
-<main class="body-container-wrapper" style="padding-top: 100px">
-    <div class="container-fluid body-container" style="padding-left: 350px; padding-right: 300px; padding-bottom: 100px">
-        <h1 style="padding-bottom: 80px">Clients</h1>
+<img src="/media/images/ourwork.jpg" class="img-top">
+    <div class="ourwork-wrapper">
+        <h1 class="ourwork-title">Clients</h1>
         <div class="row">
-            <div class="row client-group" style="padding-bottom: 120px">
-                <div class="col-lg-3 client-image" style="padding-right: 20px; text-align: center"><img
-                        src="/media/images/ikea.jpg" style="width: 150px"></div>
+            <div class="row client-group">
+                <div class="col-lg-3 client-logo"><img
+                        src="/media/images/ikea.jpg"></div>
                 <div class="col-lg-8 client-body">
                     <h4>IKEA</h4>
                     <span>Lorem ipsum dolor sit amet,
@@ -19,9 +18,9 @@
                 <hr>
             </div>
 
-            <div class="row client-group" style="padding-bottom: 120px">
-                <div class="col-lg-3 client-image" style="padding-right: 20px; text-align: center"><img
-                        src="/media/images/aig.png" style="width: 150px"></div>
+            <div class="row client-group">
+                <div class="col-lg-3 client-logo"><img
+                        src="/media/images/aig.png"></div>
                 <div class="col-lg-8 client-body">
                     <h4>AIG</h4>
                     <span>Lorem ipsum dolor sit amet,
@@ -32,9 +31,9 @@
                 </div>
             </div>
 
-            <div class="row client-group" style="padding-bottom: 120px">
-                <div class="col-lg-3 client-image" style="padding-right: 20px; text-align: center"><img
-                        src="/media/images/tails.png" style="width: 150px"></div>
+            <div class="row client-group">
+                <div class="col-lg-3 client-logo"><img
+                        src="/media/images/tails.png"></div>
                 <div class="col-lg-8 client-body">
                     <h4>Tails.com</h4>
                     <span>Lorem ipsum dolor sit amet,
@@ -46,5 +45,4 @@
             </div>
         </div>
     </div>
-</main>
 {% endblock content %}
