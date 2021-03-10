@@ -4,6 +4,10 @@
     overflow: hidden;
 }
 
+.row {
+    justify-content: center;
+}
+
 nav {
     padding: 0;
 }
@@ -43,11 +47,11 @@ nav {
 }
 
 .content-main {
-    margin-bottom: 160px;
+    margin-bottom: 50px;
 }
 
 .row-main {
-    padding: 100px 50px 80px 50px;
+    padding: 180px 50px 80px 50px;
     text-align: center;
 }
 
@@ -71,7 +75,7 @@ nav {
     padding-left: 120px;
 }
 
-.testimonials {
+.main-clients {
     margin-top: 150px;
     margin-right: 0;
     padding-top: 50px;
