@@ -91,7 +91,7 @@ nav {
     width: 10rem;
 }
 
-div p {
+p.intro {
     font-size: 150%;
 }
 
@@ -162,32 +162,38 @@ div p {
     padding-bottom: 40px;
 }
 
-.ourwork-wrapper {
+.services-wrapper {
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 20%;
     padding-right: 15%;
 }
 
-.ourwork-title {
-    padding-left: 10px;
+.services-title {
+    padding: 15px;
 }
 
-.client-group {
-    padding: 60px 0px 60px 0px;
+.services-group {
+    padding: 50px 0px 50px 0px;
 }
 
-.client-logo {
+.services-logo {
     text-align: center;
     padding-bottom: 15px;
 }
 
-.client-logo img {
-    width: 70%;
+.services-logo img {
+    width: 100px;
+    margin: 0px 15px 15px 15px;
 }
 
-.client-body {
-    padding-left: 5%;
+.services-body {
+    padding-left: 1%;
+    padding-right: 4%;
+}
+
+.services-body h4 {
+    padding-bottom: 8px;
 }
 
 #sticky-footer {
