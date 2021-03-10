@@ -11,8 +11,8 @@ def home(request):
     return render(request, 'website/home.html')
 
 
-def our_work(request):
-    return render(request, 'website/ourwork.html')
+def services(request):
+    return render(request, 'website/services.html')
 
 
 def about(request):
