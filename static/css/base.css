@@ -2,6 +2,7 @@
     padding-left: 0rem;
     padding-right: 0rem;
     overflow: hidden;
+    min-height: 64vh;
 }
 
 .row {
