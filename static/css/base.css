@@ -210,3 +210,26 @@ p.intro {
     bottom: 0;
     width: 100%;
 }
+
+ .contact-card {
+    width: 18rem;
+    margin: 10px;
+    text-align: center;
+}
+
+.card-img {
+    width: 60px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+a, a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}

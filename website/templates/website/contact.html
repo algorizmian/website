@@ -1,19 +1,35 @@
 {% extends 'website/base.html' %}
 {% block content %}
-{% load crispy_forms_tags %}
 <img src="/media/images/phone.jpg" class="img-top">
-<div class="content-fluid">
-    <div class="row contact-form-wrapper">
-        <div class="col-lg-4 contact">
-        <h2>Contact Us</h2><br>
-        <form method="post">
-            {% csrf_token %}
-            {{ form|crispy }}
-            <div class="form-actions">
-                <button type="submit" class="btn btn-info">Send</button>
+<div class="container-fluid">
+    <center><h1 class="page-title" style="padding-top: 120px">Contact Us</h1></center><br>
+    <div class="row" style="padding-top: 35px; padding-bottom: 80px">
+        <div class="card contact-card">
+            <center><a href="mailto:info@algorizm.co"><img class="card-img" src="/media/images/email.png" alt="email"></a></center>
+            <div class="card-body">
+                <h5 class="card-title">Email</h5>
+                <a href="mailto:info@algorizm.co"><p class="card-text">info [at] algorizm.co<br></p></a>
             </div>
-        </form>
+        </div>
+        <div class="card contact-card">
+            <center><a href="https://calendly.com/joseharoperalta/let-s-talk" target="_blank">
+                <img class="card-img" src="/media/images/calendar.jpg" alt="calendly"></a></center>
+            <div class="card-body">
+                <h5 class="card-title">Appointments</h5>
+                <p class="card-text">If you want to book an appointment with us, please check our availability on this
+                <strong><a href="https://calendly.com/joseharoperalta/let-s-talk" target="_blank">Link</a></strong>.</p>
+            </div>
+        </div>
+        <div class="card contact-card">
+            <center><a href="https://www.linkedin.com/company/algorizm" target="_blank">
+                <img class="card-img" src="/media/images/linkedin.png" alt="linkedin" style="width: 45px; margin-top: 35px; margin-bottom: 15px"></a></center>
+            <div class="card-body">
+                <h5 class="card-title">LinkedIn</h5>
+                <p class="card-text"><a href="https://www.linkedin.com/company/algorizm" target="_blank">Algorizm</a></p>
+            </div>
+
         </div>
     </div>
+
 </div>
 {% endblock content %}
