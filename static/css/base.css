@@ -121,13 +121,23 @@ p.intro {
 /*}*/
 
 .our-story-wrapper {
-    padding: 150px 200px 150px 200px;
+    /*padding: 150px 200px 150px 200px;*/
+    margin: auto;
+    padding-bottom: 150px;
 }
 
 .our-story-title h1 {
-    padding-bottom: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 150px 50px 50px 50px;
     font-weight: bold;
 }
+
+.row-our-story {
+    margin: auto;
+    padding: 2%;
+}
+
 
 /*.our-goals-wrapper {
     padding: 150px 200px 150px 200px;
@@ -233,3 +243,9 @@ a:hover {
     color: black;
     font-weight: bold;
 }
+
+/*@media(max-width: 500px) {*/
+/*    .col-5 {*/
+/*        display: block;*/
+/*    }*/
+/*}*/
